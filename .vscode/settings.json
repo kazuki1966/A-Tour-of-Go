@@ -1,4 +1,6 @@
 {
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 750,
     "go.playground": {
         "openbrowser": false,
         "share": false,

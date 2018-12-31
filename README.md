@@ -2,6 +2,8 @@
 
 ## 開発環境
 
+以下の開発環境でプログラムを作成しました。
+
 * macOS Mojave 10.14.2
 * Visual Studio Code 1.3.1
 * go 1.11.4
@@ -11,9 +13,13 @@
 
 ## 演習問題
 
+[A Tour of Go](https://go-tour-jp.appspot.com/list) より、下記演習問題の回答例をコミットしています。
+
 * [Exercise: Loops and Functions](https://go-tour-jp.appspot.com/flowcontrol/8)
 * [Exercise: Slices](https://go-tour-jp.appspot.com/moretypes/18)
 
 ## 注意事項
 
 Linter（golint）をパスするために本来の演習問題に軽微な修正を加えていますが、演習問題の基本構造に変更はありません。
+
+動作確認は [The Go Playground](https://play.golang.org/) および goplay コマンドにて行っています。
