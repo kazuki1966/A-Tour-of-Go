@@ -1,6 +1,6 @@
 # A Tour of Go 演習回答例
 
-## 開発環境
+## 開発環境
 
 * macOS Mojave 10.14.2
 * Visual Studio Code 1.3.1
