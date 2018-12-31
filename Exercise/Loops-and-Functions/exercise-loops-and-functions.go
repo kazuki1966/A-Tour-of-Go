@@ -11,18 +11,17 @@ func sqrt(x float64) float64 {
 	z0 := float64(1)
 	z1 := z0
 
-	loopCount := int(0)
+	count := int(1)
 
-	for {
+	for ; ; count++ {
 		z0 -= (z0*z0 - x) / (2 * z0)
 		if math.Abs(z1-z0) < eps {
 			break
 		}
 		z1 = z0
-		loopCount++
 	}
 
-	fmt.Printf("loopCount: %d\n", loopCount)
+	fmt.Printf("calcCount: %d\n", count)
 
 	return z0
 }
