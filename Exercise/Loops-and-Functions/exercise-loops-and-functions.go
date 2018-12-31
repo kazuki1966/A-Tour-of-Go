@@ -5,7 +5,7 @@ import (
 	"math"
 )
 
-func sqrt(x float64) float64 {
+func calcSqrt(x float64) float64 {
 	const eps float64 = 1e-11
 
 	z0 := float64(1)
@@ -29,6 +29,6 @@ func sqrt(x float64) float64 {
 func main() {
 	value := float64(2)
 
-	fmt.Printf("calcSqrt : %.16f\n", sqrt(value))
+	fmt.Printf("calcSqrt : %.16f\n", calcSqrt(value))
 	fmt.Printf("mathSqrt : %.16f\n", math.Sqrt(value))
 }
