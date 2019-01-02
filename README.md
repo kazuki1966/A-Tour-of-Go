@@ -22,6 +22,7 @@
 * [Exercise: Loops and Functions](https://go-tour-jp.appspot.com/flowcontrol/8)
 * [Exercise: Slices](https://go-tour-jp.appspot.com/moretypes/18)
 * [Exercise: Maps](https://go-tour-jp.appspot.com/moretypes/23)
+* [Exercise: Fibonacci closure](https://go-tour-jp.appspot.com/moretypes/26)
 
 ## 注意事項
 
