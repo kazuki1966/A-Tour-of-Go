@@ -23,6 +23,7 @@
 * [Exercise: Slices](https://go-tour-jp.appspot.com/moretypes/18)
 * [Exercise: Maps](https://go-tour-jp.appspot.com/moretypes/23)
 * [Exercise: Fibonacci closure](https://go-tour-jp.appspot.com/moretypes/26)
+* [Exercise: Stringers](https://go-tour-jp.appspot.com/methods/18)
 
 ## 注意事項
 
