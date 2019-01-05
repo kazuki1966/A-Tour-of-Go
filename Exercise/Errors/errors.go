@@ -5,14 +5,14 @@ import (
 	"math"
 )
 
-// ErrNegativeSqrt ::Sqrt 関数で引数が負数の場合の Error タイプ
+// ErrNegativeSqrt :: Sqrt 関数で引数が負数の場合の Error タイプ
 type ErrNegativeSqrt float64
 
 func (e ErrNegativeSqrt) Error() string {
 	return fmt.Sprintf("cannot Sqrt negative number: %v", float64(e))
 }
 
-// Sqrt ::平方根をニュートン法で計算
+// Sqrt :: 平方根をニュートン法で計算
 func Sqrt(x float64) (float64, error) {
 	if x < 0 {
 		return 0, ErrNegativeSqrt(x)

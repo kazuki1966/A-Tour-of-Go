@@ -5,9 +5,10 @@ import (
 	"strings"
 )
 
-type ipAddr [4]byte
+// IPAddr :: IP アドレスの数値格納タイプ
+type IPAddr [4]byte
 
-func (ip ipAddr) String() string {
+func (ip IPAddr) String() string {
 	ipStr := make([]string, 4)
 
 	for i, v := range ip {
@@ -18,7 +19,7 @@ func (ip ipAddr) String() string {
 }
 
 func main() {
-	hosts := map[string]ipAddr{
+	hosts := map[string]IPAddr{
 		"loopback":  {127, 0, 0, 1},
 		"googleDNS": {8, 8, 8, 8},
 	}

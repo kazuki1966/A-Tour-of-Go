@@ -6,7 +6,8 @@ import (
 	"golang.org/x/tour/wc"
 )
 
-func countWord(s string) map[string]int {
+// WordCount :: 単語単位の出現頻度 map を作成
+func WordCount(s string) map[string]int {
 	wordMap := map[string]int{}
 
 	for _, word := range strings.Fields(s) {
@@ -17,5 +18,5 @@ func countWord(s string) map[string]int {
 }
 
 func main() {
-	wc.Test(countWord)
+	wc.Test(WordCount)
 }

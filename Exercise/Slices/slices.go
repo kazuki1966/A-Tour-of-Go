@@ -2,7 +2,8 @@ package main
 
 import "golang.org/x/tour/pic"
 
-func createPic(dx, dy int) [][]uint8 {
+// Pic :: 画像データ配列を作成
+func Pic(dx, dy int) [][]uint8 {
 	array := make([][]uint8, dy)
 	for y := range array {
 		array[y] = make([]uint8, dx)
@@ -18,5 +19,5 @@ func createPic(dx, dy int) [][]uint8 {
 }
 
 func main() {
-	pic.Show(createPic)
+	pic.Show(Pic)
 }

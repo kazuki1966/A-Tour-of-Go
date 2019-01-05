@@ -5,7 +5,7 @@ import (
 	"math"
 )
 
-// Sqrt ::平方根をニュートン法で計算
+// Sqrt :: 平方根をニュートン法で計算
 func Sqrt(x float64) float64 {
 	const eps float64 = 1e-11
 
