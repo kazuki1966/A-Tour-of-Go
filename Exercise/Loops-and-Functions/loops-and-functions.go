@@ -5,7 +5,8 @@ import (
 	"math"
 )
 
-func calcSqrt(x float64) float64 {
+// Sqrt ::平方根をニュートン法で計算
+func Sqrt(x float64) float64 {
 	const eps float64 = 1e-11
 
 	z0 := float64(1)
@@ -29,6 +30,6 @@ func calcSqrt(x float64) float64 {
 func main() {
 	value := float64(2)
 
-	fmt.Printf("calcSqrt : %.16f\n", calcSqrt(value))
+	fmt.Printf("calcSqrt : %.16f\n", Sqrt(value))
 	fmt.Printf("mathSqrt : %.16f\n", math.Sqrt(value))
 }
