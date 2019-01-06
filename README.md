@@ -25,6 +25,7 @@
 * [Exercise: Fibonacci closure](https://go-tour-jp.appspot.com/moretypes/26)
 * [Exercise: Stringers](https://go-tour-jp.appspot.com/methods/18)
 * [Exercise: Errors](https://go-tour-jp.appspot.com/methods/20)
+* [Exercise: Readers](https://go-tour-jp.appspot.com/methods/22)
 
 ## 注意事項
 
