@@ -27,6 +27,7 @@
 * [Exercise: Errors](https://go-tour-jp.appspot.com/methods/20)
 * [Exercise: Readers](https://go-tour-jp.appspot.com/methods/22)
 * [Exercise: rot13Reader](https://go-tour-jp.appspot.com/methods/23)
+* [Exercise: Images](https://go-tour-jp.appspot.com/methods/25)
 
 ## 注意事項
 
