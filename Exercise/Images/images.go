@@ -7,7 +7,7 @@ import (
 	"golang.org/x/tour/pic"
 )
 
-// Image :: インターフェイス定義
+// Image :: 型定義
 type Image struct{}
 
 // ColorModel :: イメージのカラーモデル
