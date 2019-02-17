@@ -28,6 +28,7 @@
 * [Exercise: Readers](https://go-tour-jp.appspot.com/methods/22)
 * [Exercise: rot13Reader](https://go-tour-jp.appspot.com/methods/23)
 * [Exercise: Images](https://go-tour-jp.appspot.com/methods/25)
+* [Exercise: Equivalent Binary Trees](https://go-tour-jp.appspot.com/concurrency/8)
 
 ## 注意事項
 
